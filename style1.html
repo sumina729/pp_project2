@@ -6,9 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        font-family: 'Comic Sans MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFDAB9; /* Peach color */
+    }
+    h1, h2, h3 {
+        color: #FF4500; /* Orangered color */
+    }
+    p {
+        line-height: 1.6;
+    }
+
+   a {
+      color:#333; 
+      text-decoration:none; 
+      transition: color 0.3s ease-in-out; 
+   }  
+   
+   a:hover { 
+       color:#FF4500; 
+   }  
+
+  .header-div{
+       background-color:#FA8072 ; /* Salmon color */  
+       color:white; 
+       padding:10px; 
+       margin-bottom:15px;
+
+  }
+
+  .sidebar-div{
+      background-color:#FFE4E1 ; /* MistyRose Color */
+      padding :10px;
+
+  }
+
+  .content-div{
+     background-color:white;
+     padding :10px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex; /* make the list items align horizontally */
+    justify-content: space-around; /* distribute the items evenly */
+}
+
+ul li {
+    border: 1px solid #FA8072;
+    padding: 10px 20px; /* increase horizontal padding to make it oval */
+    text-align: center;
+    transition-duration: .5s;
+
+   /* Make it oval */
+   height: 50px; 
+   line-height: 50px; 
+   border-radius: 25px; 
+
+}
+
+ul li:hover{
+     background-color:#FF4500 ; /* Change the button's color on hover */
+     color:white ; /* Change the text's color on hover */
+}
+
+</style>
 <body>
-    <h1>
-        style1.html
-    </h1>
+    <div class='header-div'>
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div class='sidebar-div'>
+        <div>
+            <ul>
+                <li>Stylesheet1</li>
+                <li>Stylesheet2</li>
+                <li>Stylesheet3</li>
+                <li>Styleshee4</li>
+                <li>NoStylesheet</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+                <br>
+                <a href="">Stylesheet1</a>
+                ", "
+                <a href="">Stylesheet2</a>
+                ", "
+                <a href="">Stylesheet3</a>
+                ", "
+                <a href="">Stylesheet4</a>
+            </p>
+            <h2>No Styles</h2>
+            <p>
+                This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                <br>
+                <a href="">No Stylesheet</a>
+            </p>
+        </div>
+        <div">
+            <h3>Side-Bar</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </p>
+        </div>
+    </div>
+    <div class='content-div'>
+        
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+
+    </div>
+
 </body>
 </html>
